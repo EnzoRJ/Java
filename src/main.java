@@ -9,8 +9,8 @@ public class main {
 
     }
 }class persona{
-    String nombre,apellido;
-    int edad;
+    private String nombre,apellido;
+    private int edad;
 
     public persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
