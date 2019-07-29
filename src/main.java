@@ -11,11 +11,20 @@ public class main {
 }class persona{
     private String nombre,apellido;
     private int edad;
+    private boolean activo;
 
     public persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
+    }
+
+    public boolean isActivo() {
+        return activo;
+    }
+
+    public void setActivo(boolean activo) {
+        this.activo = activo;
     }
 
     public String getNombre() {
