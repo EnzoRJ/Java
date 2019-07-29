@@ -2,6 +2,10 @@ public class main {
     public static void main(String[] args) {
         persona p = new persona("Enzo","Rojas",34);
         System.out.println(p.toString());
+        p.setNombre("Pors");
+        p.setEdad(30);
+        System.out.println(p.toString());
+
 
     }
 }class persona{
